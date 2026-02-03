@@ -4,10 +4,6 @@ pragma solidity ^0.8.26;
 import {Test, console} from "forge-std/Test.sol";
 import {AgentTrust} from "../src/AgentTrust.sol";
 
-/**
- * @title AgentTrustTest
- * @notice Comprehensive test suite for ERC-8004 AgentTrust contract
- */
 contract AgentTrustTest is Test {
     AgentTrust public agentTrust;
 

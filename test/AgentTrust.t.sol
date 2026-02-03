@@ -310,4 +310,8 @@ contract AgentTrustTest is Test {
         assertEq(agentTrust.balanceOf(agentOwner), 1);
         assertEq(agentTrust.tokenURI(agentId), METADATA_URI);
     }
+
+    function test_security() public {
+        
+    }
 }
